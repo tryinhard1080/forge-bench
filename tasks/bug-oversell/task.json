@@ -1,0 +1,10 @@
+{
+  "id": "bug-oversell",
+  "title": "We sell stock that is already reserved",
+  "kind": "bugfix",
+  "split": "tune",
+  "protected": false,
+  "start": { "visible": "pass", "lint": "pass" },
+  "expected_route": "diagnose, then a red regression test, then the fix",
+  "instruction": "Warehouse reports oversold items. Example: a product has 5 in stock, one order reserves 3, and a second order for 3 more still goes through. A reservation must never exceed what is still available. Fix it."
+}

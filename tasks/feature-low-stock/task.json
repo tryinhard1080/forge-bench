@@ -1,0 +1,10 @@
+{
+  "id": "feature-low-stock",
+  "title": "Low-stock report",
+  "kind": "feature",
+  "split": "holdout",
+  "protected": false,
+  "start": { "visible": "pass", "lint": "pass" },
+  "expected_route": "small clear feature: tdd, no spec or grill needed",
+  "instruction": "Purchasing wants a low-stock report. Add lowStockReport(products, inventory, threshold) to src/inventory.mjs. It returns [{ id, name, available }] for every product whose available stock (stock minus reservations) is at or below threshold, sorted by available ascending, then by id. threshold must be a non-negative integer; anything else throws a RangeError."
+}

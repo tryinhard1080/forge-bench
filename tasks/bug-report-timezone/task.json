@@ -1,0 +1,10 @@
+{
+  "id": "bug-report-timezone",
+  "title": "Monthly revenue lands in the wrong month",
+  "kind": "bugfix",
+  "split": "holdout",
+  "protected": false,
+  "start": { "visible": "pass", "lint": "pass" },
+  "expected_route": "diagnose, then a red regression test, then the fix",
+  "instruction": "Finance says the monthly revenue report puts orders from the evening of the last day of a month into the next month. Our store is in Chicago and the report is called with tzOffsetMinutes: -360. Example: an order created at 2026-03-01T03:00:00Z was placed on Feb 28 local time and belongs to February. Fix the report."
+}

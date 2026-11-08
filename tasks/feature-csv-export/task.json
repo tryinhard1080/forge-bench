@@ -1,0 +1,10 @@
+{
+  "id": "feature-csv-export",
+  "title": "Export orders as CSV",
+  "kind": "feature",
+  "split": "tune",
+  "protected": false,
+  "start": { "visible": "pass", "lint": "pass" },
+  "expected_route": "small clear feature: tdd, no spec or grill needed",
+  "instruction": "Finance needs a CSV export of orders. Add src/export.mjs exporting ordersToCsv(orders, { customersById, productsById }). Columns, in order: order_id, created_at, customer_name, customer_email, total. One row per order in the order given, after a header row. total is the order total in dollars with two decimals and no currency symbol (17.96). Quote fields per RFC 4180 when they contain a comma, a double quote or a newline, doubling any inner quotes. Lines end with \\n and the file ends with a newline."
+}

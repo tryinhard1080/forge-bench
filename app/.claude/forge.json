@@ -1,0 +1,9 @@
+{
+  "default_branch": "main",
+  "protected_paths": ["src/auth/**", "migrations/**", "**/*delete*"],
+  "verify": {
+    "test": { "cmd": "npm test", "exit": 0 },
+    "lint": { "cmd": "npm run lint", "exit": 0 }
+  },
+  "shepherd": { "auto_merge": true, "budget_minutes": 60 }
+}

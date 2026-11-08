@@ -1,0 +1,12 @@
+{
+  "name": "forge-bench",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Frozen tasks, hidden tests and a grader for comparing coding-agent skill stacks. Zero dependencies.",
+  "scripts": {
+    "test": "node --test \"test/**/*.test.mjs\"",
+    "validate": "node scripts/bench.mjs validate",
+    "check": "npm run validate && npm test"
+  }
+}

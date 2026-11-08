@@ -1,0 +1,12 @@
+{
+  "name": "larder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Synthetic order-management app used as the Forge Bench target. Zero dependencies.",
+  "scripts": {
+    "test": "node --test",
+    "lint": "node scripts/lint.mjs",
+    "data": "node data/generate.mjs"
+  }
+}

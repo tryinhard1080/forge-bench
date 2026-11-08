@@ -1,0 +1,152 @@
+[
+  {
+    "id": "p001",
+    "name": "Oat Flour",
+    "priceCents": 4849,
+    "stock": 27
+  },
+  {
+    "id": "p002",
+    "name": "Rye Berries",
+    "priceCents": 3495,
+    "stock": 0
+  },
+  {
+    "id": "p003",
+    "name": "Smoked Salt",
+    "priceCents": 4749,
+    "stock": 2
+  },
+  {
+    "id": "p004",
+    "name": "Maple Syrup",
+    "priceCents": 300,
+    "stock": 9
+  },
+  {
+    "id": "p005",
+    "name": "Dried Figs",
+    "priceCents": 2049,
+    "stock": 22
+  },
+  {
+    "id": "p006",
+    "name": "Black Tea",
+    "priceCents": 5699,
+    "stock": 31
+  },
+  {
+    "id": "p007",
+    "name": "Olive Oil",
+    "priceCents": 3899,
+    "stock": 40
+  },
+  {
+    "id": "p008",
+    "name": "Honey",
+    "priceCents": 3395,
+    "stock": 8
+  },
+  {
+    "id": "p009",
+    "name": "Chili Crisp",
+    "priceCents": 5399,
+    "stock": 7
+  },
+  {
+    "id": "p010",
+    "name": "Rice Vinegar",
+    "priceCents": 3399,
+    "stock": 18
+  },
+  {
+    "id": "p011",
+    "name": "Cocoa Nibs",
+    "priceCents": 3899,
+    "stock": 9
+  },
+  {
+    "id": "p012",
+    "name": "Sumac",
+    "priceCents": 5995,
+    "stock": 18
+  },
+  {
+    "id": "p013",
+    "name": "Miso",
+    "priceCents": 4749,
+    "stock": 6
+  },
+  {
+    "id": "p014",
+    "name": "Tahini",
+    "priceCents": 2349,
+    "stock": 13
+  },
+  {
+    "id": "p015",
+    "name": "Saffron",
+    "priceCents": 4795,
+    "stock": 0
+  },
+  {
+    "id": "p016",
+    "name": "Polenta",
+    "priceCents": 1400,
+    "stock": 31
+  },
+  {
+    "id": "p017",
+    "name": "Capers",
+    "priceCents": 2900,
+    "stock": 17
+  },
+  {
+    "id": "p018",
+    "name": "Dates",
+    "priceCents": 3100,
+    "stock": 9
+  },
+  {
+    "id": "p019",
+    "name": "Barley",
+    "priceCents": 4349,
+    "stock": 14
+  },
+  {
+    "id": "p020",
+    "name": "Pecans",
+    "priceCents": 399,
+    "stock": 40
+  },
+  {
+    "id": "p021",
+    "name": "Sea Kelp",
+    "priceCents": 5395,
+    "stock": 38
+  },
+  {
+    "id": "p022",
+    "name": "Ghee",
+    "priceCents": 2649,
+    "stock": 35
+  },
+  {
+    "id": "p023",
+    "name": "Za'atar",
+    "priceCents": 4900,
+    "stock": 5
+  },
+  {
+    "id": "p024",
+    "name": "Molasses",
+    "priceCents": 5995,
+    "stock": 22
+  },
+  {
+    "id": "p025",
+    "name": "Farro",
+    "priceCents": 549,
+    "stock": 12
+  }
+]
