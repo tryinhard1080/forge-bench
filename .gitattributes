@@ -1,0 +1,2 @@
+# Same bytes on every OS: hashes and text edits in the harness assume LF.
+* text=auto eol=lf

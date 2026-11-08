@@ -9,7 +9,7 @@ import { join } from 'node:path';
 import { grade, listTasks, materialize } from '../scripts/bench.mjs';
 
 const fresh = (id, opts) => materialize(id, mkdtempSync(join(tmpdir(), `bench-t-${id}-`)), opts);
-const edit = (dir, file, fn) => writeFileSync(join(dir, file), fn(readFileSync(join(dir, file), 'utf8')));
+const edit = (dir, file, fn) => writeFileSync(join(dir, file), fn(readFileSync(join(dir, file), 'utf8').replace(/\r\n/g, '\n')));
 
 test('a materialized task is a one-commit git repo with no task files or hidden tests in it', () => {
   const dir = fresh('bug-oversell');
